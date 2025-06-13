@@ -97,3 +97,7 @@
 - `src/app.js`, `src/server.js` — App and entry point
 
 ---
+
+## In-Memory Data Storage
+
+This API uses an in-memory data store to manage items. All data is held in server memory and will be lost if the server restarts or stops. There is no external database connected in this implementation.
